@@ -1,0 +1,14 @@
+.image {
+  border-radius: 50%;
+  width: 480px;
+}
+@media screen and (max-width: 550px) {
+  .image {
+    width: 345px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .image {
+    width: 215px;
+  }
+}

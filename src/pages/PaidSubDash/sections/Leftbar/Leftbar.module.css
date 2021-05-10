@@ -1,0 +1,25 @@
+.name {
+  color: white;
+  margin-top: -15px;
+}
+.name p {
+  margin-top: -8px;
+}
+.leftBar {
+  color: white;
+  font-size: 14px;
+}
+.profilePicture img {
+  margin-left: 70px;
+}
+.profilePicture h3 {
+  float: right;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.profilePicture span {
+  position: relative;
+  bottom: 70px;
+  text-decoration: underline;
+  font-size: 12px;
+}

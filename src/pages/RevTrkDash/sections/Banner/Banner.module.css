@@ -1,0 +1,74 @@
+.border {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.profilePicture {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.searchBox {
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+.searchButton {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: -80px;
+}
+.adjustment {
+  margin-bottom: -15px;
+}
+.search h3 {
+  color: #f5991e;
+}
+
+.datePicker {
+  margin-top: 90px;
+
+  background-color: white;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+@media screen and (max-width: 960px) {
+  .searchButton {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .searchBox {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .searchButton {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .datePicker {
+    margin-bottom: 20px;
+    margin-top: -15px;
+  }
+  .search {
+    margin-top: -30px;
+  }
+}

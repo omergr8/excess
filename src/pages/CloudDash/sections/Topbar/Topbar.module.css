@@ -1,0 +1,102 @@
+.root {
+  margin-top: 10px;
+  color: white !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.used {
+  border: 1px solid #f19d19;
+  background-color: #f19d19;
+  height: 18px;
+  width: 24px;
+}
+.unUsed {
+  border: 1px solid white;
+  background-color: white;
+  height: 18px;
+  width: 24px;
+}
+.spaceTextUsed {
+  font-size: 12px;
+  margin-left: -4px !important;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.spaceTextunUsed {
+  font-size: 12px;
+  margin-left: -16px !important;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.imageText {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 5px;
+}
+
+/* Css for leftTable */
+
+.align {
+  text-align: center;
+}
+
+.lefttable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 30px 1px;
+}
+.righttable {
+  width: 60%;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+th {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-weight: 700;
+}
+tr {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.leftAlign {
+  text-align: left;
+}
+.tableFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -200px;
+}
+.rightIcon {
+  margin-top: -30px;
+}
+.saveButton {
+  background-color: red;
+  color: white;
+  border: 1px solid white;
+  margin-right: 150px;
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .lefttable {
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0px 1px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .righttable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.text {
+  color: white;
+  font-size: 18px;
+}
+.button button {
+  border: 5px solid white;
+  background-color: #bb0001;
+  color: white;
+  width: 210px;
+  font-size: 17px;
+  font-weight: 550;
+  border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+.border {
+  border: 1px solid black;
+  background-color: white;
+  text-transform: uppercase;
+  width: 300px;
+}
+.header {
+  color: white;
+  background-color: black;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tick {
+  float: left;
+  margin-left: 10px;
+}
+.bulletPoints {
+  text-decoration: underline;
+  font-weight: 550;
+}
+
+@media screen and (max-width: 1280px) {
+  .border {
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+  }
+}

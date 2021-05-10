@@ -1,0 +1,306 @@
+.container {
+  background-image: url("../../../../Assets//GOLD.jpg");
+  height: 115vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  gap: 40px;
+  height: 110vh;
+}
+.height30 {
+  height: 30%;
+}
+.grid3Bar {
+  background: rgb(187, 2, 0);
+  margin-top: 5%;
+  width: 100%;
+  border: none;
+}
+.height20 {
+  height: 20%;
+}
+.height60 {
+  height: 60%;
+}
+.grid2Subscriber {
+  order: 3;
+  width: 365px;
+
+  padding-right: 10px;
+}
+.gridItems {
+  background: black;
+  color: white;
+  height: 100%;
+  width: 346px;
+}
+.removeBorder {
+  border: 2px solid black;
+  border-width: 0 2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.gridItemsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.freeText {
+  justify-self: center;
+  font-size: 22px;
+  font-weight: bolder;
+  background: linear-gradient(to top, white, #aeaeae);
+  color: black;
+  padding: 3px 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.gridItemSpan2 {
+  justify-self: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+  grid-column: 1 / span2;
+}
+.border {
+  border: 1px solid black;
+}
+.borderRight {
+  border-right: 1px solid rgb(242, 154, 29);
+}
+.borderLeft {
+  border-left: 1px solid rgb(242, 154, 29);
+}
+.borderTop {
+  border-top: 2px solid white;
+}
+.borderTop4 {
+  border-top: 4px solid white;
+}
+.borderBottom {
+  border-bottom: 2px solid white;
+}
+.gridItemDiv {
+  justify-self: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+.dollarHeading {
+  font-weight: bolder;
+  font-size: 32px;
+}
+.textLabel {
+  font-size: 12px;
+}
+.grid2spanText {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.heading2ndItem {
+  padding: 6px 20px;
+  border: 1px solid rgb(242, 154, 29);
+  box-sizing: border-box;
+  width: auto;
+}
+.padding {
+  padding: 5px 0px 0px 15px;
+}
+.heading2ndItemNoBorder {
+  padding: 0px 20px 10px 0px;
+}
+.priceDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.priceDiv > * {
+  margin-left: 5px;
+}
+.preText {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.priceText {
+  font-size: 24px;
+  font-weight: bold;
+}
+.goldTextClass {
+  color: rgb(242, 154, 29);
+}
+.fontSize24 {
+  font-size: 24px;
+}
+.fontBold {
+  font-weight: bold;
+}
+.fontSize18 {
+  font-size: 18px;
+}
+.goldText {
+  color: rgb(242, 154, 29);
+  font-size: 24px;
+  font-weight: bolder;
+}
+.memberBenefit {
+  font-size: 18px;
+}
+.spanGoldDiv {
+  padding: 20px 20px 3px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+.listStyle {
+  list-style: none;
+  /* list-style-position: inside; */
+  vertical-align: middle;
+}
+.unorderedList li {
+  font-size: 14px;
+  margin-top: 16px;
+  background: url("../../../../Assets//listStyle.png") no-repeat 8px 0px
+    transparent;
+  background-size: 15px 15px;
+  list-style-type: none;
+  padding: 0px 0px 3px 34px;
+  vertical-align: middle;
+}
+.unorderedList > li pre {
+  margin: 0px;
+  margin-top: 4px;
+}
+.unorderedList {
+  padding-right: 20px;
+}
+.underLine {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+.unorderedList + div:nth-child(1) {
+  position: absolute;
+  right: 16%;
+  bottom: 10px;
+}
+.buyNowBtn {
+  border: 4px solid white;
+  background: red;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+.boxSizing {
+  box-sizing: border-box;
+}
+.textCenter {
+  text-align: center !important;
+}
+.benefitsText {
+  border: 2.5px solid white;
+  padding: 4px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.marginTop24 {
+  margin-top: 24px;
+}
+.launchText {
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media (max-width: 1136px) {
+  .gridItembusiness2 {
+    width: 300px;
+  }
+  .grid {
+    height: 100%;
+  }
+  .positionRelativeLaunch {
+    position: relative;
+    top: -19px;
+  }
+  .container {
+    padding-bottom: 60px;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .buyNowBtn {
+    border: 2px solid white;
+    background: red;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .positionRelativeLaunch {
+    position: relative;
+    top: -19px;
+  }
+  .container {
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 25px;
+  }
+  .gridItems {
+    background: black;
+    color: white;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    width: auto;
+  }
+  .unorderedList {
+    padding-right: 0px;
+  }
+  .spanGoldDiv {
+    padding: 20px 0px 3px 20px;
+  }
+  .gridItembusiness2 {
+    width: 100%;
+  }
+  .spanGoldDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

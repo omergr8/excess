@@ -1,0 +1,8 @@
+.background {
+  background: rgb(233, 198, 1);
+
+  position: relative;
+}
+.container {
+  max-width: 1450px !important;
+}

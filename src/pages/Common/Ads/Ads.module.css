@@ -1,0 +1,19 @@
+.adBox {
+  border: 2px solid white !important;
+  color: white;
+  border-radius: 15px;
+  height: 100px;
+  width: 190px;
+  margin-left: 60px;
+  text-align: center;
+}
+.container {
+  color: white;
+}
+
+@media screen and (max-width: 1280px) {
+  .adBox {
+    margin: auto;
+    width: 50%;
+  }
+}

@@ -1,0 +1,60 @@
+.formInline label {
+  margin: 10px 5px 5px 0;
+  font-size: 13px;
+  font-weight: 550;
+}
+.ahContainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.ahContainer p {
+  font-size: 10px;
+}
+.largeInput {
+  vertical-align: left;
+  margin: 5px 10px 5px 0;
+  padding: 5px -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex input {
+  flex: 2;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.flex input,
+label {
+  margin: 1px;
+}
+.button {
+  background-color: #c10002 !important;
+}
+.note span {
+  font-weight: 700;
+  font-size: 17px;
+}
+.note {
+  font-size: 13px;
+  font-weight: 520;
+}
+.center {
+  text-align: center !important;
+}
+.center img {
+  padding-right: 8px;
+}
+.heading1 {
+  font-weight: 800;
+}
+.heading2 {
+  font-weight: 900;
+  font-size: 18px;
+}

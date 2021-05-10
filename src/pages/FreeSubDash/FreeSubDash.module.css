@@ -1,0 +1,86 @@
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.headerContainer {
+  background: #f2f2f2;
+  height: 70vh;
+  position: relative;
+}
+.launchButton {
+  border: 1px solid #c00000;
+  border-radius: 6px;
+  background-color: #c00000;
+  color: white;
+  font-size: 16px;
+  font-weight: 550;
+  width: 250px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+.logout {
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+  height: 35px;
+  width: 90px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.headerSize {
+  padding: 5px 15px 0px 0px;
+  width: 80%;
+  background-image: url("../../Assets/XCCESS Video Conf Image.jpg");
+  background-size: cover;
+  /* background-size: cover; */
+  margin: auto;
+  height: 100%;
+}
+.upgradeBox {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  max-width: 140px;
+  text-align: center;
+  padding: 0 10px 0 10px;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.upgradeBox span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 800px) {
+  .headerSize {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .headerContainer {
+    height: 45vh;
+  }
+  .footer {
+    height: 70vh;
+  }
+  .launchButton {
+    width: 90px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+}

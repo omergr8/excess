@@ -1,0 +1,10 @@
+.box {
+  border: 1px solid white;
+  color: white;
+  font-size: 30px;
+  margin: 0px 30px 0px 30px !important;
+  border-radius: 5px;
+}
+.text p {
+  color: white;
+}
