@@ -4,8 +4,9 @@
   position: relative;
 }
 .container {
-  max-width: 1450px !important;
+  max-width: 88% !important;
 }
 .contentBackground {
   background-color: white;
+  min-height: 80vh;
 }

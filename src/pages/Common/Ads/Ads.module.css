@@ -14,6 +14,7 @@
 @media screen and (max-width: 1280px) {
   .adBox {
     margin: auto;
-    width: 50%;
+
+    margin-top: 30px;
   }
 }

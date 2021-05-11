@@ -2,7 +2,7 @@ import classes from "./Comingsoon.module.css";
 
 const Comingsoon = () => {
   return (
-    <div>
+    <div className={classes.comingSoon}>
       <div className={classes.text}>
         <p>COMING SOON!</p>
       </div>

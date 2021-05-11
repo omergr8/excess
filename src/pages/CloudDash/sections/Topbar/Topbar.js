@@ -8,7 +8,7 @@ import classes from "./Topbar.module.css";
 const Topbar = () => {
   return (
     <div className={classes.root}>
-      <Grid container spacing={5}>
+      <Grid container style={{ paddingTop: "20px" }}>
         <Grid item lg={3} xs={12}>
           <div style={{ textAlign: "center" }}>
             <Profile incoming="CloudDash" />
@@ -21,7 +21,7 @@ const Topbar = () => {
           <Buymore />
         </Grid>
       </Grid>
-      <Grid container spacing={5}>
+      <Grid container>
         <Grid item lg={2} xs={12}></Grid>
         <Grid item lg={5} xs={12}>
           <div>

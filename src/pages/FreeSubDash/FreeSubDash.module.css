@@ -19,7 +19,7 @@
   color: white;
   font-size: 16px;
   font-weight: 550;
-  width: 250px;
+  height: 40px;
   margin-right: 70px;
   margin-top: 10px;
 }
@@ -62,7 +62,17 @@
 }
 .flex {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex-flow: row;
+}
+.flexGrow1 {
+  flex: 8;
+}
+.flexGrow2 {
+  flex: 4;
+}
+.flexGrow3 {
+  flex: 2;
 }
 @media (max-width: 800px) {
   .headerSize {
@@ -82,5 +92,10 @@
     width: 90px;
     margin-right: 0px;
     margin-top: 0px;
+  }
+}
+@media (max-width: 910px) {
+  .launchButton {
+    height: auto;
   }
 }

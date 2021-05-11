@@ -9,7 +9,9 @@ const PaidSubDash = () => {
     <div className={classes.background}>
       <Container className={classes.container}>
         <Header incoming="PaidSubDash" />
-        <Wrapper />
+        <div>
+          <Wrapper />
+        </div>
       </Container>
       <Footer incoming="PaidSubDash" />
     </div>

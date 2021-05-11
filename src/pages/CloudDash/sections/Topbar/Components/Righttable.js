@@ -84,7 +84,7 @@ const Righttable = () => {
 
   return (
     <div className={classes.align}>
-      <Grid container spacing={0}>
+      <Grid container>
         <Grid item lg={7} xs={12}>
           <div>
             <table className={classes.righttable}>

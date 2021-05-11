@@ -1,4 +1,3 @@
-import classes from "../Topbar.module.css";
 import { makeStyles } from "@material-ui/core/styles";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import Typography from "@material-ui/core/Typography";
@@ -12,9 +11,7 @@ function LinearProgressWithLabel(props) {
         <LinearProgress variant="determinate" {...props} />
       </Box>
       <Box minWidth={35}>
-        <Typography variant="h5">
-          <nobr>100 Gigs</nobr>
-        </Typography>
+        <Typography variant="h5">100 Gigs</Typography>
       </Box>
     </Box>
   );

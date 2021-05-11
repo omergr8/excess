@@ -35,7 +35,9 @@ const Forum = () => {
           </Grid>
           <Grid item lg={5} md={12} xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">Zip Code</label>
+              <label for="myInput">
+                <nobr>Zip Code</nobr>
+              </label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
@@ -56,7 +58,10 @@ const Forum = () => {
               <span>
                 <img width="18px" src={lock} alt="lock" />
               </span>
-              FOR TAX REPORTING PURPOSES
+              <span className={classes.taxText}>
+                {" "}
+                FOR TAX REPORTING PURPOSES
+              </span>
             </div>
             <div className={classes.flex}>
               <label for="myInput">Social Security Number</label>
@@ -85,7 +90,8 @@ const Forum = () => {
             <div className={classes.flex}>
               <label for="myInput">Account's Holder Name</label>
               <input className={classes.largeInput} type="text" id="myInput" />
-              <p>(Must be your name)</p>
+
+              <label for="myInput">(Must be your name)</label>
             </div>
           </Grid>
           <Grid item xs={12}>
@@ -111,7 +117,7 @@ const Forum = () => {
               <p className={classes.note}>
                 <span>NOTE:</span> If no PayPal account or direct deposit any
                 commission and/or residual payment due will be mailed every
-                Friday to above address
+                Friday to above{" "}
               </p>
             </div>
           </Grid>

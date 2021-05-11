@@ -5,7 +5,7 @@ const Ads = () => {
   return (
     <div className={classes.container}>
       <p>Google Textual Ad Space</p>
-      <Grid container alignItems="center" spacing={0}>
+      <Grid container alignItems="center">
         <Grid item lg={3} xs={12}>
           <div className={classes.adBox}></div>
         </Grid>

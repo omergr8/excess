@@ -1,5 +1,4 @@
 .formInline label {
-  margin: 10px 5px 5px 0;
   font-size: 13px;
   font-weight: 550;
 }
@@ -13,7 +12,7 @@
 }
 .largeInput {
   vertical-align: left;
-  margin: 5px 10px 5px 0;
+  margin: 15px 20px 25px 0;
   padding: 5px -1px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -57,4 +56,21 @@ label {
 .heading2 {
   font-weight: 900;
   font-size: 18px;
+}
+.taxText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .flex input,
+  label {
+    margin: 5px;
+  }
+  .flex input {
+    flex: 2;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
 }

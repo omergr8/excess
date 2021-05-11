@@ -13,6 +13,8 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
+    height: "10vh",
+    zIndex: "9999999",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -44,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   color: {
     backgroundColor: "white",
     paddingBottom: "20px",
+    zIndex: "999999999",
   },
   betaText: {
     lineHeight: "0px",
@@ -179,7 +182,7 @@ export default function PrimarySearchAppBar(props) {
 
   return (
     <div className={classes.grow}>
-      <AppBar className={classes.color} position="static">
+      <AppBar className={classes.color} position="relative">
         <Toolbar>
           <img src={logo} width="170px" height="55px" alt="" />
           <p className={classes.betaText}>BETA</p>

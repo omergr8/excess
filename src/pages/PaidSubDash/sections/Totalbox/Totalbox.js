@@ -5,7 +5,7 @@ import imagee from "../../../../Assets/Group Video Conferencing on XCCESS1.jpg";
 const Toolbox = () => {
   return (
     <div className={classes.leftBar}>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item lg={2} xs={12}></Grid>
         <Grid item lg={5} xs={12}>
           <Tokenbox text="TOTAL XCS TOKEN BONUSES" amount={100} />

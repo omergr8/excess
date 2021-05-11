@@ -11,8 +11,10 @@ const RevTrkDash = () => {
     <div className={classes.background}>
       <Container className={classes.container}>
         <Header />
-        <Banner />
-        <Table />
+        <div className={classes.height}>
+          <Banner />
+          <Table />
+        </div>
       </Container>
       <Footer incoming="RevTrkDash" />
     </div>

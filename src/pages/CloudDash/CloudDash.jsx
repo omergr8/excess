@@ -7,11 +7,9 @@ import classes from "./CloudDash.module.css";
 const CloudDash = () => {
   return (
     <div>
+      <Header incoming="CloudDash" />
       <div className={classes.root}>
-        <Header incoming="CloudDash" />
-        <Container>
-          <Topbar />
-        </Container>
+        <Topbar />
       </div>
 
       <Footer incoming="CloudDash" />

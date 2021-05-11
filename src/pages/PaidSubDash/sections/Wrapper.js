@@ -6,10 +6,11 @@ const Wrapper = () => {
   const wrapperStyle = {
     textAlign: "center",
     backgroundColor: "black",
+    minHeight: "70vh",
   };
   return (
     <div style={wrapperStyle}>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item lg={4} xs={12}>
           <Leftbar />
         </Grid>
