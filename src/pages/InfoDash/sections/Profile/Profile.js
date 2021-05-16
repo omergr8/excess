@@ -9,11 +9,17 @@ const Profile = (props) => {
   } else {
     headingClass = classes.heading;
   }
+  var paragraphClass;
+  if (props.incoming === "CloudDash") {
+    paragraphClass = classes.cloudParagraph;
+  } else {
+    paragraphClass = classes.smalltext;
+  }
   return (
     <div className={classes.profile}>
       <img src={profile} width="120px" alt="profile" />
       <h2 className={headingClass}>Mary Smith</h2>
-      <p className={classes.smallText}>I.S.E. I.D.#1465098</p>
+      <p className={paragraphClass}>I.S.E.#146013</p>
     </div>
   );
 };

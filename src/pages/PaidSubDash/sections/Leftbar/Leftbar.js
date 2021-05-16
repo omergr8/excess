@@ -10,7 +10,7 @@ const Leftbar = () => {
       </div>
       <div className={classes.name}>
         <h2>Mary Smith</h2>
-        <p>I.S.E. I.D.#1465098</p>
+        <p>I.S.E. I.D.#146013</p>
       </div>
       <div>CLOUD STORAGE</div>
       <div>

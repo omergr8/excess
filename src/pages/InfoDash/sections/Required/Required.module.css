@@ -4,6 +4,7 @@
   text-transform: uppercase;
   width: 90%;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .header {
   color: white;
@@ -19,13 +20,19 @@
   text-decoration: underline;
   font-weight: 550;
 }
-
+.button {
+  background-color: #c10002 !important;
+  margin-top: 10px !important;
+}
 @media screen and (max-width: 1280px) {
   .border {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-
     padding: 0px;
+  }
+  .button {
+    background-color: #c10002 !important;
+    margin-bottom: 10px !important;
   }
 }

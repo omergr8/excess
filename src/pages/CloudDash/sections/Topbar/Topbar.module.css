@@ -49,13 +49,12 @@
 .lefttable {
   width: auto;
   border-collapse: separate;
-  border-spacing: 30px 1px;
+  border-spacing: 15px 0px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
-.righttable {
-  width: auto;
-  border-collapse: separate;
-  border-spacing: 10px 10px;
-}
+
 th {
   text-decoration: underline;
   text-decoration-thickness: 3px;
@@ -69,47 +68,67 @@ tr {
 .leftAlign {
   text-align: left;
 }
-.tableFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: -200px;
-}
+
 .rightIcon {
-  margin-top: -30px;
+  margin-top: 20px;
 }
 .saveButton {
-  background-color: red;
-  color: white;
-  border: 1px solid white;
-  margin-left: -380px;
-  margin-top: 50px;
-  text-align: center;
+  background-color: rgb(211, 12, 12) !important;
+  color: white !important;
+  border: 1px solid red !important;
+  text-decoration: none !important;
+  margin-top: 12px !important;
 }
-@media screen and (max-width: 480px) {
+.mobileSave {
+  display: none;
+}
+.span {
+  padding-left: 10px;
+}
+.span2 {
+  padding-left: 10px;
+}
+.tableData {
+  font-weight: 550;
+  font-size: 13px;
+}
+.arrowIcon {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.iconTable {
+  margin-right: 88px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.saveData {
+  text-decoration: none !important;
+}
+@media screen and (max-width: 520px) {
   .lefttable {
     width: 100%;
     border-collapse: collapse;
-    border-spacing: 0px 1px;
+  }
+  tr {
+    font-size: 10px;
   }
 }
-@media screen and (max-width: 1280px) {
-  .righttable {
-    width: 90%;
-    border-collapse: separate;
-    border-spacing: 40px 20px;
-    margin-top: 50px;
+@media screen and (max-width: 360px) {
+  .span,
+  .span2 {
+    display: none;
   }
-  .lefttable {
-    width: 100%;
-    border-collapse: collapse;
+}
+@media screen and (max-width: 700px) {
+  .saveData {
+    display: none !important;
   }
-  .saveButton {
-    background-color: red;
-    color: white;
-    border: 1px solid white;
-    margin-left: 0px;
-    margin-top: 50px;
-    text-align: center;
+  .mobileSave {
+    display: inline !important;
   }
 }

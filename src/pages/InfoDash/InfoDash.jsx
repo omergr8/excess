@@ -10,7 +10,7 @@ const InfoDash = () => {
   return (
     <div className={classes.background}>
       <Container className={classes.container}>
-        <Header />
+        <Header incoming="InfoDash" />
         <div className={classes.contentBackground}>
           <Wrapper />
         </div>

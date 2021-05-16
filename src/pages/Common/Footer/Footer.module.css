@@ -21,7 +21,7 @@
 }
 .cloudFooter {
   border: 1px solid black;
-  background-color: white;
+  background-color: black;
   position: relative;
   text-align: center;
   height: 8vh;
@@ -30,6 +30,8 @@
   width: 100%;
   font-size: 13px;
   color: black;
+  margin-top: 42px;
+  background-color: white;
 }
 .footerText {
   position: absolute;

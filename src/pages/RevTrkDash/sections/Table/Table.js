@@ -14,44 +14,65 @@ const Banner = () => {
     },
     {
       id: 2,
-      date: "1/1/2021",
+      date: "1/2/2021",
       commission: 180,
-      sn: 270393,
+      sn: 140267,
       status: "paid",
     },
     {
       id: 3,
-      date: "1/1/2021",
+      date: "1/2/2021",
       commission: 180,
-      sn: 270393,
-      status: "paid",
+      sn: 150700,
+      status: "Chargeback",
     },
     {
       id: 4,
-      date: "1/1/2021",
+      date: "1/3/2021",
       commission: 180,
-      sn: 270393,
+      sn: 197333,
       status: "paid",
     },
     {
       id: 5,
-      date: "1/1/2021",
+      date: "1/3/2021",
       commission: 180,
-      sn: 270393,
+      sn: 149899,
       status: "paid",
     },
     {
       id: 6,
-      date: "1/1/2021",
+      date: "1/3/2021",
       commission: 180,
-      sn: 270393,
+      sn: 167895,
       status: "paid",
     },
     {
       id: 7,
-      date: "1/1/2021",
+      date: "1/4/2021",
       commission: 180,
-      sn: 270393,
+      sn: 348972,
+      status: "paid",
+    },
+    {
+      id: 8,
+      date: "1/4/2021",
+      commission: 180,
+      sn: 548976,
+      status: "paid",
+    },
+    {
+      id: 9,
+      date: "1/4/2021",
+      commission: 180,
+      sn: 984736,
+      status: "paid",
+    },
+    {
+      id: 10,
+      date: "1/4/2021",
+      commission: 180,
+      sn: 136752,
       status: "paid",
     },
   ]);
@@ -68,10 +89,12 @@ const Banner = () => {
 
   return (
     <div className={classes.align}>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item lg={4} md={4} sm={4} xs={12}>
-          <h2>Mary Smith</h2>
-          <p>I.S.E. I.D.#1465098</p>
+          <div>
+            <h2>Mary Smith</h2>
+            <p className={classes.profileText}>I.S.E. I.D.#146013</p>
+          </div>
         </Grid>
         <Grid item lg={4} md={4} sm={4} xs={12}>
           <div>

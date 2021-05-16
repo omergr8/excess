@@ -150,6 +150,12 @@ export default function PrimarySearchAppBar(props) {
   } else {
     launchbutton = "";
   }
+  var positionApp;
+  if (props.incoming === "InfoDash") {
+    positionApp = "static";
+  } else {
+    positionApp = "relative";
+  }
   const mobileMenuId = "primary-search-account-menu-mobile";
   const renderMobileMenu = (
     <Menu
@@ -182,7 +188,7 @@ export default function PrimarySearchAppBar(props) {
 
   return (
     <div className={classes.grow}>
-      <AppBar className={classes.color} position="relative">
+      <AppBar className={classes.color} position={positionApp}>
         <Toolbar>
           <img src={logo} width="170px" height="55px" alt="" />
           <p className={classes.betaText}>BETA</p>

@@ -2,6 +2,9 @@
   font-size: 13px;
   font-weight: 550;
 }
+.formInline {
+  margin-top: 10px;
+}
 .ahContainer {
   display: flex;
   flex-flow: row wrap;

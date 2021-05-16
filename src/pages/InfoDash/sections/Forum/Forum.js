@@ -117,30 +117,8 @@ const Forum = () => {
               <p className={classes.note}>
                 <span>NOTE:</span> If no PayPal account or direct deposit any
                 commission and/or residual payment due will be mailed every
-                Friday to above{" "}
+                Friday to above address.
               </p>
-            </div>
-          </Grid>
-          <Grid item lg={6} xs={12}>
-            <div>
-              <Button
-                className={classes.button}
-                variant="contained"
-                color="secondary"
-              >
-                SAVE FOR LATER
-              </Button>
-            </div>
-          </Grid>
-          <Grid item lg={6} xs={12}>
-            <div>
-              <Button
-                className={classes.button}
-                variant="contained"
-                color="secondary"
-              >
-                SUBMIT
-              </Button>
             </div>
           </Grid>
         </Grid>

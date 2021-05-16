@@ -5,6 +5,12 @@
 .align h2 {
   color: black;
 }
+.profileText {
+  margin-top: -15px;
+  font-size: 13px;
+  font-weight: 550;
+  color: black;
+}
 .tableWidth {
   width: 100%;
 }
@@ -19,7 +25,7 @@ tr {
 }
 table {
   border-collapse: separate;
-  border-spacing: 0 10px;
+  border-spacing: 0 5px;
 }
 .arrowIcon {
   font-size: 30px;
