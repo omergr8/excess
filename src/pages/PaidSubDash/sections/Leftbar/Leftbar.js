@@ -16,8 +16,9 @@ const Leftbar = () => {
       <div>
         <img src={cloudLogo} alt="character" />
       </div>
-      <div>I.S.E. PROFILE SETTINGS</div>
+
       <div>
+        <p>I.S.E. PROFILE SETTINGS</p>
         <p>COMMISSION</p>
         <p>RESIDUALS</p>
         <p>SECURITY SETTINGS</p>

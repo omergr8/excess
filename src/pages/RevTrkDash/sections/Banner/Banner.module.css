@@ -28,6 +28,7 @@
   display: inline-block;
   font-size: 14px;
   margin-left: -55px;
+  cursor: pointer;
 }
 .adjustment {
   margin-bottom: -15px;

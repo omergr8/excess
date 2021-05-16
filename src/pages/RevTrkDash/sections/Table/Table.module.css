@@ -29,4 +29,5 @@ table {
 }
 .arrowIcon {
   font-size: 30px;
+  cursor: pointer;
 }

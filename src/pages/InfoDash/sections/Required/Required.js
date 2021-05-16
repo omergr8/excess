@@ -19,8 +19,9 @@ const Required = () => {
           </span>
         </p>
         <p>
-          <span className={classes.tick}>&#10003;</span>Click Here to READ,
-          SIGN, DATE INDEPENDANT CONTRACTOR'S AGREEMENT
+          <span className={classes.tick}>&#10003;</span>
+          UPLOAD CLEAR IMAGE OF FRONT AND BACK OF YOUR STATE DRIVER'S LICENSE OR
+          STATE ID.
         </p>
       </div>
       <div>

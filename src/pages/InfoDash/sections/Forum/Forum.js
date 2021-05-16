@@ -17,39 +17,39 @@ const Forum = () => {
               <span className={classes.heading1}> REQUIRED INFORMATION</span>
             </div>
             <div className={classes.flex}>
-              <label for="myInput">Full Legal Name</label>
+              <label for="myInput">Full Legal Name:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">Current Address</label>
+              <label for="myInput">Current Address:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item lg={7} md={12} xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">City</label>
+              <label for="myInput">City:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item lg={5} md={12} xs={12}>
             <div className={classes.flex}>
               <label for="myInput">
-                <nobr>Zip Code</nobr>
+                <nobr>Zip Code:</nobr>
               </label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item lg={6} md={12} xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">State</label>
+              <label for="myInput">State:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item lg={6} md={12} xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">Country</label>
+              <label for="myInput">Country:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
@@ -64,7 +64,7 @@ const Forum = () => {
               </span>
             </div>
             <div className={classes.flex}>
-              <label for="myInput">Social Security Number</label>
+              <label for="myInput">Social Security Number:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
@@ -75,7 +75,7 @@ const Forum = () => {
               </span>
             </div>
             <div className={classes.flex}>
-              <label for="myInput">PayPal Id</label>
+              <label for="myInput">PayPal ID:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
             OR
@@ -88,7 +88,7 @@ const Forum = () => {
               DIRECT DEPOSIT
             </div>
             <div className={classes.flex}>
-              <label for="myInput">Account's Holder Name</label>
+              <label for="myInput">Account's Holder Name:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
 
               <label for="myInput">(Must be your name)</label>
@@ -96,13 +96,13 @@ const Forum = () => {
           </Grid>
           <Grid item xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">Bank Name</label>
+              <label for="myInput">Bank Name:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>
           <Grid item lg={6} xs={12}>
             <div className={classes.flex}>
-              <label for="myInput">Routing Number</label>
+              <label for="myInput">Routing Number:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
             </div>
           </Grid>

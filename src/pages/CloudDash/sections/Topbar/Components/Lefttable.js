@@ -99,17 +99,23 @@ const Lefttable = () => {
           {tableData.map((d) => (
             <tr key={d.id}>
               <td>{d.date}</td>
-              <td>{icon}</td>
+              <td className={classes.fileIcon}>{icon}</td>
               <td>
                 <nobr>{d.filename}</nobr>
               </td>
               <td className={classes.tableData}>
-                {d.download} <span className={classes.span}>|</span>
+                <p>
+                  {d.download} <span className={classes.span}>|</span>
+                </p>
               </td>
               <td className={classes.tableData}>
-                {d.edit} <span className={classes.span2}> |</span>
+                <p>
+                  {d.edit} <span className={classes.span2}> |</span>
+                </p>
               </td>
-              <td className={classes.tableData}>{d.delete}</td>
+              <td className={classes.tableData}>
+                <p>{d.delete}</p>
+              </td>
             </tr>
           ))}
         </tbody>
