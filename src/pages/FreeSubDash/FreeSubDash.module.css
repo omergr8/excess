@@ -69,7 +69,7 @@
   flex: 8;
 }
 .flexGrow2 {
-  flex: 5;
+  flex: 3;
 }
 .flexGrow3 {
   flex: 2;
@@ -119,7 +119,7 @@
     flex: 6;
   }
   .flexGrow2 {
-    flex: 7;
+    flex: 4;
   }
   .flexGrow3 {
     flex: 2;
