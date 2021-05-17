@@ -3,17 +3,20 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import PropTypes from "prop-types";
+import Container from "@material-ui/core/Container";
 
 function LinearProgressWithLabel(props) {
   return (
-    <Box display="flex" alignItems="center">
-      <Box width="100%" mr={1}>
-        <LinearProgress variant="determinate" {...props} />
+    <Container>
+      <Box display="flex" alignItems="center">
+        <Box width="100%" mr={1}>
+          <LinearProgress variant="determinate" {...props} />
+        </Box>
+        <Box minWidth={35}>
+          <Typography variant="h5">100 Gigs</Typography>
+        </Box>
       </Box>
-      <Box minWidth={35}>
-        <Typography variant="h5">100 Gigs</Typography>
-      </Box>
-    </Box>
+    </Container>
   );
 }
 

@@ -17,7 +17,7 @@
   border-radius: 6px;
   background-color: #c00000;
   color: white;
-  font-size: 16px;
+  width: auto;
   font-weight: 550;
   height: 40px;
   margin-right: 70px;
@@ -62,14 +62,14 @@
 }
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-flow: row;
 }
 .flexGrow1 {
   flex: 8;
 }
 .flexGrow2 {
-  flex: 4;
+  flex: 5;
 }
 .flexGrow3 {
   flex: 2;
@@ -89,13 +89,39 @@
     height: 70vh;
   }
   .launchButton {
-    width: 90px;
+    width: 100%;
     margin-right: 0px;
-    margin-top: 0px;
+    font-size: 12px;
+  }
+  .logout {
+    font-size: 13px;
+    height: auto;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .upgradeBox {
+    font-size: 12px;
+    margin-right: 5px;
   }
 }
-@media (max-width: 910px) {
+@media (max-width: 630px) {
   .launchButton {
     height: auto;
+  }
+}
+@media (max-width: 555px) {
+  .upgradeBox {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1015px) {
+  .flexGrow1 {
+    flex: 6;
+  }
+  .flexGrow2 {
+    flex: 7;
+  }
+  .flexGrow3 {
+    flex: 2;
   }
 }

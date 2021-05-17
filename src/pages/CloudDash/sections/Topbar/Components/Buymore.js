@@ -1,5 +1,7 @@
 import classes from "../Topbar.module.css";
 import logo from "../../../../../Assets/X RED CLOUD.jpg";
+import Container from "@material-ui/core/Container";
+
 const Buymore = () => {
   return (
     <div className={classes.flex}>

@@ -3,6 +3,7 @@ import classes from "../Topbar.module.css";
 import mediaIcon from "../../../../../Assets/folder.jpg";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+import Container from "@material-ui/core/Container";
 
 import deleteIcon from "../../../../../Assets/delete.jpg";
 import downloadIcon from "../../../../../Assets/download.jpg";
@@ -83,43 +84,45 @@ const Lefttable = () => {
     </Button>
   );
   return (
-    <div className={classes.container}>
-      <table className={classes.lefttable}>
-        <tbody>
-          <tr>
-            <th>Date</th>
-            <th>Media</th>
-            <th>File Name</th>
-            <th>{download}</th>
-            <th>{edit}</th>
-            <th>{deleteI}</th>
-            <th className={classes.saveData}>{saveButton}</th>
-          </tr>
-
-          {tableData.map((d) => (
-            <tr key={d.id}>
-              <td>{d.date}</td>
-              <td className={classes.fileIcon}>{icon}</td>
-              <td>
-                <nobr>{d.filename}</nobr>
-              </td>
-              <td className={classes.tableData}>
-                <p>
-                  {d.download} <span className={classes.span}>|</span>
-                </p>
-              </td>
-              <td className={classes.tableData}>
-                <p>
-                  {d.edit} <span className={classes.span2}> |</span>
-                </p>
-              </td>
-              <td className={classes.tableData}>
-                <p>{d.delete}</p>
-              </td>
+    <div>
+      <Container className={classes.container}>
+        <table className={classes.lefttable}>
+          <tbody>
+            <tr>
+              <th>Date</th>
+              <th>Media</th>
+              <th>File Name</th>
+              <th>{download}</th>
+              <th>{edit}</th>
+              <th>{deleteI}</th>
+              <th className={classes.saveData}>{saveButton}</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+
+            {tableData.map((d) => (
+              <tr key={d.id}>
+                <td>{d.date}</td>
+                <td className={classes.fileIcon}>{icon}</td>
+                <td>
+                  <nobr>{d.filename}</nobr>
+                </td>
+                <td className={classes.tableData}>
+                  <p>
+                    {d.download} <span className={classes.span}>|</span>
+                  </p>
+                </td>
+                <td className={classes.tableData}>
+                  <p>
+                    {d.edit} <span className={classes.span2}> |</span>
+                  </p>
+                </td>
+                <td className={classes.tableData}>
+                  <p>{d.delete}</p>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </Container>
       <div className={classes.iconTable}>
         <ArrowBackIosIcon className={classes.arrowIcon} />
         <ArrowForwardIosIcon className={classes.arrowIcon} />

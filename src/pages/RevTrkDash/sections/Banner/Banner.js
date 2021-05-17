@@ -23,7 +23,7 @@ const Banner = () => {
                   <h3>WEEKLY GROSS INCOME</h3>
                 </Grid>
                 <Grid item lg={11} md={10} xs={10}>
-                  <div>
+                  <div className={classes.searchDiv}>
                     <input
                       className={classes.searchBox}
                       size="40"
