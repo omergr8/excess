@@ -9,7 +9,8 @@ const Buymore = () => {
       <div className={classes.logo}>
         <img src={logo} width="145px" alt="log" />
         <p className={classes.imageText}>
-          <b>Buy More</b><br/> Cloud Storage
+          <b>Buy More</b>
+          <br /> Cloud Storage
         </p>
       </div>
       <div className={classes.unUsed}>

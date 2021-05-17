@@ -113,6 +113,7 @@ tr {
 .container {
   display: flex;
   flex-direction: column;
+  overflow-x: auto;
 }
 .saveData {
   text-decoration: none !important;
@@ -130,6 +131,12 @@ tr {
   .span,
   .span2 {
     display: none;
+  }
+  .arrowIcon {
+    margin-left: 40px;
+  }
+  .iconTable {
+    margin-right: 35px;
   }
 }
 @media screen and (max-width: 700px) {

@@ -23,10 +23,27 @@
   font-weight: 400;
   text-decoration: underline;
 }
-.profilePicture span {
+.spanTextDesktop {
   position: relative;
   bottom: 70px;
   text-decoration: underline;
   font-size: 12px;
   cursor: pointer;
+}
+.spanTextMobile {
+  display: none;
+}
+@media screen and (max-width: 360px) {
+  .spanTextMobile {
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: underline;
+  }
+  .spanTextDesktop {
+    display: none;
+  }
+  .profilePicture img {
+    margin-left: 0px;
+  }
 }

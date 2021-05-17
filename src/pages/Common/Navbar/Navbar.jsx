@@ -48,16 +48,7 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: "20px",
     zIndex: "999999999",
   },
-  betaText: {
-    lineHeight: "0px",
-    position: "relative",
-    bottom: "-30px",
-    textAlign: "right",
-    paddingRight: "100px!important",
-    marginLeft: "-42px",
-    fontWeight: "550",
-    color: "black",
-  },
+
   supportButton: {
     border: "2px solid #28A745",
     borderRadius: "6px",
@@ -67,6 +58,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "6px",
   },
   dashboardButton: {
+    marginLeft: "80px",
     display: "none",
     [theme.breakpoints.up("md")]: {
       display: "flex",
@@ -106,6 +98,27 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       width: "200px",
       fontSize: "12px",
+    },
+  },
+  betaText: {
+    lineHeight: "0px",
+    position: "relative",
+    bottom: "-30px",
+    textAlign: "right",
+
+    marginLeft: "-42px",
+    fontWeight: "550",
+    color: "black",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "14px",
+    },
+  },
+  logoImage: {
+    width: "170px",
+    height: "55px",
+    [theme.breakpoints.down("xs")]: {
+      width: "130px",
+      height: "40px",
     },
   },
 }));
@@ -190,7 +203,7 @@ export default function PrimarySearchAppBar(props) {
     <div className={classes.grow}>
       <AppBar className={classes.color} position={positionApp}>
         <Toolbar>
-          <img src={logo} width="170px" height="55px" alt="" />
+          <img src={logo} className={classes.logoImage} alt="" />
           <p className={classes.betaText}>BETA</p>
           <div className={classes.dashboardButton}>
             <Button variant="outlined" className={classes.dlButton}>

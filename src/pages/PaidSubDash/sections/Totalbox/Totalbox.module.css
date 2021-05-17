@@ -1,17 +1,8 @@
 .image {
   border-radius: 50%;
-  width: 480px;
+  width: 100%;
+  margin-top: 20px;
 }
 .leftBar {
   margin-top: 40px;
-}
-@media screen and (max-width: 550px) {
-  .image {
-    width: 345px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .image {
-    width: 215px;
-  }
 }

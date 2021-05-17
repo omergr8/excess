@@ -22,7 +22,7 @@ const Banner = () => {
                 <Grid item xs={12}>
                   <h3>WEEKLY GROSS INCOME</h3>
                 </Grid>
-                <Grid item lg={11} md={11} xs={12}>
+                <Grid item lg={11} md={10} xs={10}>
                   <div>
                     <input
                       className={classes.searchBox}
@@ -32,7 +32,7 @@ const Banner = () => {
                     ></input>
                   </div>
                 </Grid>
-                <Grid item lg={1} md={1} xs={12}>
+                <Grid item lg={1} md={2} xs={2}>
                   <button className={classes.searchButton}>GO</button>
                 </Grid>
               </Grid>

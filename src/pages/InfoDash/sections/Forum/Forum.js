@@ -90,7 +90,11 @@ const Forum = () => {
             <div className={classes.flex}>
               <label for="myInput">Account's Holder Name:</label>
               <input className={classes.largeInput} type="text" id="myInput" />
-
+              <label className={classes.desktopLabel} for="myInput">
+                (Must be your name)
+              </label>
+            </div>
+            <div className={classes.mobileLabel}>
               <label for="myInput">(Must be your name)</label>
             </div>
           </Grid>

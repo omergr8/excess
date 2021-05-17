@@ -2,13 +2,15 @@ import classes from "./Leftbar.module.css";
 import profile from "../../../../Assets/profile.png";
 import cloudLogo from "../../../../Assets/character.png";
 const Leftbar = () => {
+  const spanText = <nobr>Upload Image</nobr>;
   return (
     <div className={classes.leftBar}>
       <div className={classes.profilePicture}>
         <img width="120px" src={profile} alt="profile" />
-        <span>Upload Image</span>
+        <span className={classes.spanTextDesktop}>{spanText}</span>
       </div>
       <div className={classes.name}>
+        <h2 className={classes.spanTextMobile}>{spanText}</h2>
         <h2>Mary Smith</h2>
         <p>I.S.E. I.D.#146013</p>
       </div>
