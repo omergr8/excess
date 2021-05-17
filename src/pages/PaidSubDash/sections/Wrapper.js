@@ -11,13 +11,13 @@ const Wrapper = () => {
   return (
     <div style={wrapperStyle}>
       <Grid container>
-        <Grid item lg={4} xs={12}>
+        <Grid item md={4} xs={12}>
           <Leftbar />
         </Grid>
-        <Grid item lg={4} xs={12}>
+        <Grid item md={4} xs={12}>
           <Totalbox />
         </Grid>
-        <Grid item lg={4} xs={12}>
+        <Grid item md={4} xs={12}>
           <Comingsoon />
         </Grid>
       </Grid>

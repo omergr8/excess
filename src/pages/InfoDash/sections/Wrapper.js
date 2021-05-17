@@ -12,13 +12,13 @@ const Wrapper = () => {
   return (
     <div style={wrapper}>
       <Grid container>
-        <Grid item lg={3} md={12} xs={12}>
+        <Grid item lg={3} md={3} xs={12}>
           <Profile />
         </Grid>
-        <Grid item lg={6} md={12} xs={12}>
+        <Grid item lg={6} md={6} xs={12}>
           <Forum />
         </Grid>
-        <Grid item lg={3} md={12} xs={12}>
+        <Grid item lg={3} md={3} xs={12}>
           <Required />
         </Grid>
       </Grid>

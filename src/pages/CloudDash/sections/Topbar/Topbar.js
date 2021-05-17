@@ -10,20 +10,20 @@ const Topbar = () => {
   return (
     <div className={classes.root}>
       <Grid container style={{ paddingTop: "20px", backgroundColor: "black" }}>
-        <Grid item lg={3} xs={12}>
+        <Grid item md={3} xs={12}>
           <div style={{ textAlign: "center" }}>
             <Profile incoming="CloudDash" />
           </div>
         </Grid>
-        <Grid item lg={6} xs={12}>
+        <Grid item md={6} xs={12}>
           <Progressbar />
         </Grid>
-        <Grid item lg={3} xs={12}>
+        <Grid item md={3} xs={12}>
           <Buymore />
         </Grid>
       </Grid>
       <Grid container>
-        <Grid item lg={12} xs={12}>
+        <Grid item md={12} xs={12}>
           <div className={classes.align}>
             <Lefttable />
           </div>

@@ -52,6 +52,7 @@
   .searchButton {
     margin-left: 0px;
     margin-bottom: 15px;
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 1300px) {
