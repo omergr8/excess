@@ -81,7 +81,8 @@ const Banner = () => {
     var i;
     var total = 0;
     for (i = 0; i < tableData.length; i++) {
-      total = total + tableData[i].commission;
+      if (tableData[i].status === "paid")
+        total = total + tableData[i].commission;
     }
     return total;
   }
