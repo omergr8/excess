@@ -14,7 +14,6 @@ const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
     height: "10vh",
-    zIndex: "9999999",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -46,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
   color: {
     backgroundColor: "white",
     paddingBottom: "20px",
-    zIndex: "999999999",
   },
 
   supportButton: {
@@ -120,6 +118,10 @@ const useStyles = makeStyles((theme) => ({
       width: "130px",
       height: "40px",
     },
+  },
+  mobileMenu: {
+    zIndex: "99999999 !important",
+    backgroundColor: "red !important",
   },
 }));
 
