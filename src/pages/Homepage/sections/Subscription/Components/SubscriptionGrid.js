@@ -127,7 +127,7 @@ const SubscriptionGrid = () => {
               Option to store meetings to your cloud account
             </li>
             <li style={{ marginTop: "7px" }}>
-              <span className={classes.fontBold}>270 FREE</span> Prelaunch{" "}
+              <span className={classes.fontBold}>500 FREE</span> Prelaunch{" "}
               <span className={classes.fontBold}>XCCESS (XCS)</span> Tokens
             </li>
             <li style={{ marginTop: "7px" }}>
@@ -178,7 +178,7 @@ const SubscriptionGrid = () => {
               Option to store meetings to your cloud account
             </li>
             <li style={{ marginTop: "7px" }}>
-              <span className={classes.fontBold}>450 FREE</span> Prelaunch{" "}
+              <span className={classes.fontBold}>1,300 FREE</span> Prelaunch{" "}
               <span className={classes.fontBold}>XCCESS (XCS) </span> Tokens
             </li>
             <li style={{ marginTop: "7px" }}>
@@ -229,7 +229,7 @@ const SubscriptionGrid = () => {
               Option to store meetings to your cloud account
             </li>
             <li style={{ marginTop: "7px" }}>
-              <span className={classes.fontBold}>900 FREE</span> Prelaunch{" "}
+              <span className={classes.fontBold}>3,000 FREE</span> Prelaunch{" "}
               <span className={classes.fontBold}>XCCESS (XCS)</span> Tokens
             </li>
             <li style={{ marginTop: "7px" }}>
@@ -418,7 +418,7 @@ const SubscriptionGrid = () => {
               </li>
               <li>Option to store meetings to your cloud account</li>
               <li>
-                <span className={classes.fontBold}>90 FREE </span>Prelaunch
+                <span className={classes.fontBold}>150 FREE </span>Prelaunch
                 XCCESS (XCS) Tokens
               </li>
             </ul>
